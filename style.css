@@ -246,3 +246,29 @@ form button:hover {
     border-color: #B99470;
     color: #FEFAE0;
 }
+
+/* Thank you page */
+.thankyou {
+    text-align: center;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #B99470;
+}
+.thankyou a {
+    color: #A6B37D;
+    text-decoration: none;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+}
+.thankyou a:hover {
+    color: #B99470;
+}
+.thankyou hr {
+    border: 1px dashed #A6B37D;
+    margin-left: 20%;
+    margin-right: 20%;
+}
