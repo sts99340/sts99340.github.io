@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+    margin:0px;
+    background-color: #FEFAE0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #C0C78C;
+    border-bottom: 10px solid #A6B37D;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav p, nav a {
+    float: left;
+    background-color: #A6B37D;
+    color:black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a {
+    float: left;
+    background-color: #A6B37D;
+    color:black;
+    text-align: center;
+    box-shadow: #B99470 5px 5px 5px;
+    padding: 14px 16px;
+    margin: 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #B99470;
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #C0C78C;
+    border-top: 10px solid #A6B37D;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    float: left;
+    background-color: #A6B37D;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer a:hover {
+    background-color: #B99470;
+    color: black;
+}
+
+/* Splash Section */
+.splash {
+    
+}
+
+.splash h1 {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #B99470;
+}
+
+.splash img {
+    border-radius: 25%;
+    padding: 10px;
+    background-color: #A6B37D;
+}
+
+.splash p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 1px dashed #A6B37D;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Sections */
+section {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #B99470;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black
+}
+
+/* link styles */
+section a {
+    color: #A6B37D;
+    text-decoration: none;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+section a:hover {
+    color: #B99470;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+dl dt{
+    padding: 5px;
+}
+dl dd{
+    padding: 5px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: #FEFAE0;
+    border: 5px solid #A6B37D;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: #C0C78C 5px 5px 5px;
+}
+
+.card:hover {
+    box-shadow: #C0C78C 10px 10px 10px;
+}
+
+.card img {
+    width: 90%;
+    padding: 2%;
+    background-color: #A6B37D;
+}
+.card h3 {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #94714d;
+}
+
+/* Contact Page Styles */
+.one-col {
+    columns: 1;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #FEFAE0;
+    border: 5px solid #A6B37D;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: #C0C78C 5px 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit{
+    grid-column: 1 / span 2;
+    width: 50%;
+    margin: auto;
+    border-width: 5px;
+    border-color: #A6B37D;
+    background-color: #FEFAE0;
+}
+
+.submit:hover {
+    background-color: #B99470;
+    border-color: #B99470;
+    color: #FEFAE0;
+}
+
+form input, form textarea {
+    background-color: #FEFAE0;
+    border-width: 5px;
+    border-color: #A6B37D;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    grid-column: 1 / span 2;
+    width: 50%;
+    margin: auto;
+    border-width: 5px;
+    border-color: #A6B37D;
+    background-color: #FEFAE0;
+}
+
+form button:hover {
+    background-color: #B99470;
+    border-color: #B99470;
+    color: #FEFAE0;
+}
